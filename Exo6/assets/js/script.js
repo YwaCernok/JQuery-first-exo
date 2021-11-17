@@ -1,3 +1,5 @@
+/* Au passage de la souris, agrandir une image de votre choix.
+*/
 $ (function (){
 
     $( '#image' ).hover (function() {

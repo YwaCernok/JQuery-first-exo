@@ -1,3 +1,5 @@
+/* Afficher ou masquer le paragraphe text au clic des boutons.
+*/
 $ (function (){
 
 $('#btn1').click (function(){

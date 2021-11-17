@@ -1,3 +1,6 @@
+/* Cacher le paragraphe text.
+*/
+
 /*
 $(function(){
     $ ('body').click(function(){

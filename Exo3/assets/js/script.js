@@ -1,3 +1,6 @@
+/* Changer le font-family du paragraphe text en Arial.
+*/
+
 $ (function () {
 
     $ ('#btn').click (function (){
