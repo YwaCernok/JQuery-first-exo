@@ -29,15 +29,13 @@ $ (function(){
 
 /* Si la moyenne de l'élève est supérieure ou égale à 0 et inférieure à 10, il aura comme appréciation : "En dessous de la moyenne".
 
-function average(nums) {
-    return nums.reduce((a, b) => (a + b)) / nums.length;
-}
+other way
+var note1 = parseInt($('#note1').val());
+.
+.
+.
 
-ou
 
-const average = arr => arr.reduce((a,b) => a + b, 0) / arr.length;
-
-average([99, 45, 26, 7, 11, 122, 22]);
 */
 
 
