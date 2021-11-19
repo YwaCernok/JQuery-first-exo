@@ -10,8 +10,24 @@ $ (function (){
     $('#btn1').mouseenter(function(){
     $('#text').css('color','blue');
     }); 
-    $('#btn1').mouseleave (function(){
+    $('#btn1').mouseleave(function(){
     $('#text').css('color', 'black');
     }); 
     
     });
+
+
+/*
+other method, how to attache few events on same html element
+
+$ (function (){
+$('btn1').on ({
+    mouseenter:function(){
+    $('#text').css('color','blue');
+    },
+    mouseleave:function(){
+    $('#text').css('color', 'black');    
+    }
+});
+})
+*/
